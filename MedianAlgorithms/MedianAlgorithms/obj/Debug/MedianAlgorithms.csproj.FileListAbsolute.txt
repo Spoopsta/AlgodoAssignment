@@ -1,0 +1,7 @@
+C:\Users\Nicka\source\repos\MedianAlgorithms\MedianAlgorithms\obj\Debug\MedianAlgorithms.csprojResolveAssemblyReference.cache
+C:\Users\Nicka\source\repos\MedianAlgorithms\MedianAlgorithms\obj\Debug\MedianAlgorithms.csproj.CoreCompileInputs.cache
+C:\Users\Nicka\source\repos\MedianAlgorithms\MedianAlgorithms\bin\Debug\MedianAlgorithms.exe.config
+C:\Users\Nicka\source\repos\MedianAlgorithms\MedianAlgorithms\bin\Debug\MedianAlgorithms.exe
+C:\Users\Nicka\source\repos\MedianAlgorithms\MedianAlgorithms\bin\Debug\MedianAlgorithms.pdb
+C:\Users\Nicka\source\repos\MedianAlgorithms\MedianAlgorithms\obj\Debug\MedianAlgorithms.exe
+C:\Users\Nicka\source\repos\MedianAlgorithms\MedianAlgorithms\obj\Debug\MedianAlgorithms.pdb
