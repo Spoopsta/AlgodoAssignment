@@ -29,7 +29,7 @@ namespace MedianAlgorithms
                     }
                 }
                 if (numSmaller < medianPosition && medianPosition <= (numSmaller + numEqual)) {
-                    median = arr[i];
+                    median = arr[i + 1];
                 }
             }
         }
@@ -38,7 +38,7 @@ namespace MedianAlgorithms
             //return median;
 
             //Using this for now until issue is resolved
-            return median + 1;
+            return median;
         }
     }
 }

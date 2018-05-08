@@ -28,7 +28,7 @@ namespace MedianAlgorithms
         private void Select( int l, int m, int h) {
             int pos = Partition(l,h);
             if (pos == m) {
-                median = arr[pos];
+                median = arr[pos - 1];
             }
             if (pos > m) {
                 Select(l,m,pos-1);
@@ -62,7 +62,7 @@ namespace MedianAlgorithms
             //return median;
 
             //using this until issue is resolved.
-            return median - 1;
+            return median;
         }
     }
 }
