@@ -18,7 +18,7 @@ namespace MedianAlgorithms
 
         public int getMedian(int[] arr) {
 
-            medianPosition = (arr.Length / 2);
+            medianPosition = Math.Ceiling((double) arr.Length / 2);
             for (int i = 0; i < arr.Length; i++)
             {
                 numSmaller = 0;
@@ -45,7 +45,7 @@ namespace MedianAlgorithms
             //return median;
 
             //Using this for now until issue is resolved
-            return median + 1;
+            return median;
         }
     }
 }
