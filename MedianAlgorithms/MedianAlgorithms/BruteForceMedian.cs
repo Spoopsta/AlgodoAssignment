@@ -42,9 +42,6 @@ namespace MedianAlgorithms
                     median = arr[i];
                 }
             }
-            //return median;
-
-            //Using this for now until issue is resolved
             return median;
         }
     }
