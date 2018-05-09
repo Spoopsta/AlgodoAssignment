@@ -25,3 +25,4 @@ $RECYCLE.BIN/
 *.dll
 *.exe
 MedianAlgorithms/.vs/MedianAlgorithms/v15/.suo
+*.pdb
