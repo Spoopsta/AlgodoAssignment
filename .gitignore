@@ -27,3 +27,4 @@ $RECYCLE.BIN/
 MedianAlgorithms/.vs/MedianAlgorithms/v15/.suo
 *.pdb
 *.exe
+MedianAlgorithms/testCases/obj/Debug/testCases.csprojResolveAssemblyReference.cache
