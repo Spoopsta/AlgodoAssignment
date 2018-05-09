@@ -5,3 +5,10 @@ C:\Users\Nicka\source\repos\MedianAlgorithms\MedianAlgorithms\bin\Debug\MedianAl
 C:\Users\Nicka\source\repos\MedianAlgorithms\MedianAlgorithms\bin\Debug\MedianAlgorithms.pdb
 C:\Users\Nicka\source\repos\MedianAlgorithms\MedianAlgorithms\obj\Debug\MedianAlgorithms.exe
 C:\Users\Nicka\source\repos\MedianAlgorithms\MedianAlgorithms\obj\Debug\MedianAlgorithms.pdb
+C:\Users\Niall\Documents\AlgoAssign2\AlgodoAssignment\MedianAlgorithms\MedianAlgorithms\obj\Debug\MedianAlgorithms.csprojResolveAssemblyReference.cache
+C:\Users\Niall\Documents\AlgoAssign2\AlgodoAssignment\MedianAlgorithms\MedianAlgorithms\obj\Debug\MedianAlgorithms.csproj.CoreCompileInputs.cache
+C:\Users\Niall\Documents\AlgoAssign2\AlgodoAssignment\MedianAlgorithms\MedianAlgorithms\obj\Debug\MedianAlgorithms.exe
+C:\Users\Niall\Documents\AlgoAssign2\AlgodoAssignment\MedianAlgorithms\MedianAlgorithms\obj\Debug\MedianAlgorithms.pdb
+C:\Users\Niall\Documents\AlgoAssign2\AlgodoAssignment\MedianAlgorithms\MedianAlgorithms\bin\Debug\MedianAlgorithms.exe.config
+C:\Users\Niall\Documents\AlgoAssign2\AlgodoAssignment\MedianAlgorithms\MedianAlgorithms\bin\Debug\MedianAlgorithms.exe
+C:\Users\Niall\Documents\AlgoAssign2\AlgodoAssignment\MedianAlgorithms\MedianAlgorithms\bin\Debug\MedianAlgorithms.pdb

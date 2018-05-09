@@ -1,0 +1,17 @@
+C:\Users\Niall\Documents\AlgoAssign2\AlgodoAssignment\MedianAlgorithms\testCases\obj\Debug\testCases.csprojResolveAssemblyReference.cache
+C:\Users\Niall\Documents\AlgoAssign2\AlgodoAssignment\MedianAlgorithms\testCases\obj\Debug\testCases.csproj.CoreCompileInputs.cache
+C:\Users\Niall\Documents\AlgoAssign2\AlgodoAssignment\MedianAlgorithms\testCases\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Niall\Documents\AlgoAssign2\AlgodoAssignment\MedianAlgorithms\testCases\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Niall\Documents\AlgoAssign2\AlgodoAssignment\MedianAlgorithms\testCases\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Niall\Documents\AlgoAssign2\AlgodoAssignment\MedianAlgorithms\testCases\bin\Debug\testCases.dll
+C:\Users\Niall\Documents\AlgoAssign2\AlgodoAssignment\MedianAlgorithms\testCases\bin\Debug\testCases.pdb
+C:\Users\Niall\Documents\AlgoAssign2\AlgodoAssignment\MedianAlgorithms\testCases\bin\Debug\MedianAlgorithms.exe
+C:\Users\Niall\Documents\AlgoAssign2\AlgodoAssignment\MedianAlgorithms\testCases\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Niall\Documents\AlgoAssign2\AlgodoAssignment\MedianAlgorithms\testCases\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Niall\Documents\AlgoAssign2\AlgodoAssignment\MedianAlgorithms\testCases\bin\Debug\MedianAlgorithms.pdb
+C:\Users\Niall\Documents\AlgoAssign2\AlgodoAssignment\MedianAlgorithms\testCases\bin\Debug\MedianAlgorithms.exe.config
+C:\Users\Niall\Documents\AlgoAssign2\AlgodoAssignment\MedianAlgorithms\testCases\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Niall\Documents\AlgoAssign2\AlgodoAssignment\MedianAlgorithms\testCases\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Niall\Documents\AlgoAssign2\AlgodoAssignment\MedianAlgorithms\testCases\obj\Debug\testCases.csproj.CopyComplete
+C:\Users\Niall\Documents\AlgoAssign2\AlgodoAssignment\MedianAlgorithms\testCases\obj\Debug\testCases.dll
+C:\Users\Niall\Documents\AlgoAssign2\AlgodoAssignment\MedianAlgorithms\testCases\obj\Debug\testCases.pdb
