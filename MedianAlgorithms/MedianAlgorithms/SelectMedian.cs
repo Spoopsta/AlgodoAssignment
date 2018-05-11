@@ -6,29 +6,36 @@ using System.Threading.Tasks;
 
 namespace MedianAlgorithms
 {
-    class SelectMedian
+    public class SelectMedian
     {
         int[] arr;
 
         int median;
 
-        int pivotVal, pivotLoc;
+        public SelectMedian() {
 
-        public SelectMedian(int[] arr) {
+        }
+
+        public int getMedian(int[] arr)
+        {
             this.arr = arr;
-            if (arr.Length == 1){
+            if (arr.Length == 1)
+            {
                 median = arr[0];
+                return median;
             }
-            else {
+            else
+            {
                 double middle = (arr.Length / 2);
                 Select(0, (int)(Math.Floor(middle)), arr.Length);
+                return median;
             }
         }
 
         private void Select( int l, int m, int h) {
             int pos = Partition(l,h);
             if (pos == m) {
-                median = arr[pos - 1];
+                median = arr[pos];
             }
             if (pos > m) {
                 Select(l,m,pos-1);
@@ -39,30 +46,24 @@ namespace MedianAlgorithms
         }
 
         private int Partition(int l, int h) {
-            pivotVal = arr[l];
-            pivotLoc = l;
+            int pivotVal = arr[l];
+            int pivotLoc = l;
             for (int j = (l + 1); j < h; j++) {
                 if (arr[j] < pivotVal) {
                     pivotLoc++;
-                    swap(pivotLoc, j);
+                    Swap(pivotLoc, j);
                 }
             }
-            swap(l, pivotLoc);
+            Swap(l, pivotLoc);
             return pivotLoc;
         }
 
-        private void swap(int val1, int val2)
+        private void Swap(int val1, int val2)
         {
             int temp = arr[val1];
             arr[val1] = arr[val2];
-            arr[val2] = arr[temp];
+            arr[val2] = temp;
         }
 
-        public int getMedian() {
-            //return median;
-
-            //using this until issue is resolved.
-            return median;
-        }
     }
 }
