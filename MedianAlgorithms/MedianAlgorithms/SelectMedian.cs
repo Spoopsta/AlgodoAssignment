@@ -8,61 +8,71 @@ namespace MedianAlgorithms
 {
     public class SelectMedian
     {
-        int[] arr;
 
-        int median;
 
-        public SelectMedian() {
+        public SelectMedian()
+        {
 
         }
 
         public int getMedian(int[] arr)
         {
-            this.arr = arr;
+
             if (arr.Length == 1)
             {
-                median = arr[0];
-                return median;
+                return arr[0];
             }
             else
             {
-                double middle = (arr.Length / 2);
-                Select(0, (int)(Math.Floor(middle)), arr.Length);
-                return median;
+                int middle = (int)Math.Floor((decimal)(arr.Length / 2));
+                return Select(arr, 0, middle, arr.Length - 1);
             }
         }
 
-        private void Select( int l, int m, int h) {
-            int pos = Partition(l,h);
-            if (pos == m) {
-                median = arr[pos];
+        private int Select(int[] arr, int l, int m, int h)
+        {
+            int pos = Partition(arr, l, h);
+            if (pos == m)
+            {
+                return arr[pos];
             }
-            if (pos > m) {
-                Select(l,m,pos-1);
+            else if (pos > m)
+            {
+                return Select(arr, l, m, pos - 1);
             }
-            if (pos < m) {
-                Select(pos + 1, m, h);
+            else if (pos < m)
+            {
+                return Select(arr, pos + 1, m, h);
+            }
+            else
+            {
+                return 0;
             }
         }
 
-        private int Partition(int l, int h) {
+        private int Partition(int[] arr, int l, int h)
+        {
             int pivotVal = arr[l];
             int pivotLoc = l;
-            for (int j = (l + 1); j < h; j++) {
-                if (arr[j] < pivotVal) {
+            for (int j = (l + 1); j <= h; j++)
+            {
+                if (arr[j] < pivotVal)
+                {
                     pivotLoc++;
-                    Swap(pivotLoc, j);
+                    arr = Swap(arr, pivotLoc, j);
                 }
             }
-            Swap(l, pivotLoc);
+            arr = Swap(arr, l, pivotLoc);
             return pivotLoc;
         }
 
-        private void Swap(int val1, int val2)
+        private int[] Swap(int[] arr, int val1, int val2)
         {
             int temp = arr[val1];
             arr[val1] = arr[val2];
             arr[val2] = temp;
+
+            return arr;
         }
 
     }

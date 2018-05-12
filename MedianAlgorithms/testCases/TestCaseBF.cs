@@ -33,7 +33,8 @@ namespace testCases
         [TestMethod] public void TestNormalBF2() { Assert.AreEqual(5, BF.getMedian(testArr2)); }
         [TestMethod] public void TestNormalBF3() { Assert.AreEqual(4, BF.getMedian(testArr3)); }
         [TestMethod] public void TestNormalBF4() { Assert.AreEqual(16, BF.getMedian(testArr4)); }
-        [TestMethod] public void TestNormalBF5() { Assert.AreEqual(68, BF.getMedian(testArr6)); }
+        [TestMethod] public void TestNormalBF5() { Assert.AreEqual(16, BF.getMedian(testArr5)); }
+        [TestMethod] public void TestNormalBF6() { Assert.AreEqual(68, BF.getMedian(testArr6)); }
         //Normal tests - 6-length (even, small size)
         [TestMethod] public void TestNormalBF11() { Assert.AreEqual(5, BF.getMedian(testArr11)); }
         [TestMethod] public void TestNormalBF12() { Assert.AreEqual(5, BF.getMedian(testArr12)); }

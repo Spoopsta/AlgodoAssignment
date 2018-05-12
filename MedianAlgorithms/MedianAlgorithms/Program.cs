@@ -14,10 +14,13 @@ namespace MedianAlgorithms
             int[] test = new int[] { 16, 4, 9, 18, 6, 1, 11, 12, 14, 8 };
             //[1,4,6,8, 9,  11,12,14,16,18]
             //int[] test = new int[] { 1, 2 };
+            int[] testArr5 = new int[] { 16, 16, 8 };
+            int[] testArr6 = new int[] { 250, 5, 68 };
+            int[] testArr56 = testArr5.Concat(testArr6).ToArray();
             SelectMedian testSel = new SelectMedian();
             BruteForceMedian BF = new BruteForceMedian();
-            Console.WriteLine(BF.getMedian(test));
-            Console.WriteLine(testSel.getMedian(test));
+            Console.WriteLine(BF.getMedian(testArr6));
+            Console.WriteLine(testSel.getMedian(testArr6));
             Console.ReadLine();
         }
     }

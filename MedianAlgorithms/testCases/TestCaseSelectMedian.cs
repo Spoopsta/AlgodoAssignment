@@ -34,7 +34,8 @@ namespace testCases
         [TestMethod] public void TestNormalSelMed2() { Assert.AreEqual(5, SelMed.getMedian(testArr2)); }
         [TestMethod] public void TestNormalSelMed3() { Assert.AreEqual(4, SelMed.getMedian(testArr3)); }
         [TestMethod] public void TestNormalSelMed4() { Assert.AreEqual(16, SelMed.getMedian(testArr4)); }
-        [TestMethod] public void TestNormalSelMed5() { Assert.AreEqual(68, SelMed.getMedian(testArr6)); }
+        [TestMethod] public void TestNormalSelMed5() { Assert.AreEqual(16, SelMed.getMedian(testArr5)); }
+        [TestMethod] public void TestNormalSelMed6() { Assert.AreEqual(68, SelMed.getMedian(testArr6)); }
         //Normal tests - 6-length (even, small size)
         [TestMethod] public void TestNormalSelMed11() { Assert.AreEqual(5, SelMed.getMedian(testArr11)); }
         [TestMethod] public void TestNormalSelMed12() { Assert.AreEqual(5, SelMed.getMedian(testArr12)); }

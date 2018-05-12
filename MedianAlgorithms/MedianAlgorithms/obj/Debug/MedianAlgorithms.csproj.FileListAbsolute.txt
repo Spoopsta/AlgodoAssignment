@@ -25,3 +25,17 @@ C:\Users\Nicka\Desktop\MedianAlgorithms\MedianAlgorithms\obj\Debug\MedianAlgorit
 C:\Users\Nicka\Desktop\MedianAlgorithms\MedianAlgorithms\obj\Debug\MedianAlgorithms.csproj.CoreCompileInputs.cache
 C:\Users\Nicka\Desktop\MedianAlgorithms\MedianAlgorithms\obj\Debug\MedianAlgorithms.exe
 C:\Users\Nicka\Desktop\MedianAlgorithms\MedianAlgorithms\obj\Debug\MedianAlgorithms.pdb
+C:\Users\Niall\Downloads\AlgodoAssignment-master\AlgodoAssignment-master\MedianAlgorithms\MedianAlgorithms\bin\Debug\MedianAlgorithms.exe.config
+C:\Users\Niall\Downloads\AlgodoAssignment-master\AlgodoAssignment-master\MedianAlgorithms\MedianAlgorithms\bin\Debug\MedianAlgorithms.exe
+C:\Users\Niall\Downloads\AlgodoAssignment-master\AlgodoAssignment-master\MedianAlgorithms\MedianAlgorithms\bin\Debug\MedianAlgorithms.pdb
+C:\Users\Niall\Downloads\AlgodoAssignment-master\AlgodoAssignment-master\MedianAlgorithms\MedianAlgorithms\obj\Debug\MedianAlgorithms.csprojResolveAssemblyReference.cache
+C:\Users\Niall\Downloads\AlgodoAssignment-master\AlgodoAssignment-master\MedianAlgorithms\MedianAlgorithms\obj\Debug\MedianAlgorithms.csproj.CoreCompileInputs.cache
+C:\Users\Niall\Downloads\AlgodoAssignment-master\AlgodoAssignment-master\MedianAlgorithms\MedianAlgorithms\obj\Debug\MedianAlgorithms.exe
+C:\Users\Niall\Downloads\AlgodoAssignment-master\AlgodoAssignment-master\MedianAlgorithms\MedianAlgorithms\obj\Debug\MedianAlgorithms.pdb
+C:\Users\Nicka\Desktop\AlgodoAssignment-master\AlgodoAssignment-master\MedianAlgorithms\MedianAlgorithms\bin\Debug\MedianAlgorithms.exe.config
+C:\Users\Nicka\Desktop\AlgodoAssignment-master\AlgodoAssignment-master\MedianAlgorithms\MedianAlgorithms\bin\Debug\MedianAlgorithms.exe
+C:\Users\Nicka\Desktop\AlgodoAssignment-master\AlgodoAssignment-master\MedianAlgorithms\MedianAlgorithms\bin\Debug\MedianAlgorithms.pdb
+C:\Users\Nicka\Desktop\AlgodoAssignment-master\AlgodoAssignment-master\MedianAlgorithms\MedianAlgorithms\obj\Debug\MedianAlgorithms.csprojAssemblyReference.cache
+C:\Users\Nicka\Desktop\AlgodoAssignment-master\AlgodoAssignment-master\MedianAlgorithms\MedianAlgorithms\obj\Debug\MedianAlgorithms.csproj.CoreCompileInputs.cache
+C:\Users\Nicka\Desktop\AlgodoAssignment-master\AlgodoAssignment-master\MedianAlgorithms\MedianAlgorithms\obj\Debug\MedianAlgorithms.exe
+C:\Users\Nicka\Desktop\AlgodoAssignment-master\AlgodoAssignment-master\MedianAlgorithms\MedianAlgorithms\obj\Debug\MedianAlgorithms.pdb
