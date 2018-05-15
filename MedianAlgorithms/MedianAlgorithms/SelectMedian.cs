@@ -8,7 +8,7 @@ namespace MedianAlgorithms
 {
     public class SelectMedian
     {
-
+        int counter = 0;
 
         public SelectMedian()
         {
@@ -18,12 +18,12 @@ namespace MedianAlgorithms
         public int getMedian(int[] arr)
         {
 
-            if (arr.Length == 1)
-            {
+            if (arr.Length == 1) {
+                counter++;
                 return arr[0];
             }
-            else
-            {
+            else {
+                counter++;
                 int middle = (int)Math.Floor((decimal)(arr.Length / 2));
                 return Select(arr, 0, middle, arr.Length - 1);
             }
@@ -32,20 +32,19 @@ namespace MedianAlgorithms
         private int Select(int[] arr, int l, int m, int h)
         {
             int pos = Partition(arr, l, h);
-            if (pos == m)
-            {
+            if (pos == m) {
+                counter++;
                 return arr[pos];
             }
-            else if (pos > m)
-            {
+            else if (pos > m) {
+                counter++;
                 return Select(arr, l, m, pos - 1);
             }
-            else if (pos < m)
-            {
+            else if (pos < m) {
+                counter++;
                 return Select(arr, pos + 1, m, h);
             }
-            else
-            {
+            else {
                 return 0;
             }
         }
@@ -61,6 +60,7 @@ namespace MedianAlgorithms
                     pivotLoc++;
                     arr = Swap(arr, pivotLoc, j);
                 }
+                counter++;
             }
             arr = Swap(arr, l, pivotLoc);
             return pivotLoc;
@@ -73,6 +73,10 @@ namespace MedianAlgorithms
             arr[val2] = temp;
 
             return arr;
+        }
+
+        public int getCounter() {
+            return counter;
         }
 
     }

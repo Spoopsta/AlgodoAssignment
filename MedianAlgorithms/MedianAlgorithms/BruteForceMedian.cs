@@ -11,6 +11,7 @@ namespace MedianAlgorithms
         double medianPosition;
         int numSmaller, numEqual;
         int median;
+        int counter = 0;
 
         public BruteForceMedian() {
             
@@ -19,6 +20,7 @@ namespace MedianAlgorithms
         public int getMedian(int[] arr) {
 
             medianPosition = Math.Ceiling((double) arr.Length / 2);
+
             for (int i = 0; i < arr.Length; i++)
             {
                 numSmaller = 0;
@@ -27,22 +29,32 @@ namespace MedianAlgorithms
                 {
                     if (arr[j] < arr[i])
                     {
+                        counter++;
                         numSmaller++;
                     }
                     else
                     {
                         if (arr[j] == arr[i])
                         {
+                            counter += 2;
                             numEqual++;
+                        }
+                        else {
+                            counter += 2;
                         }
                     }
                 }
+                counter++;
                 if (numSmaller < medianPosition && medianPosition <= (numSmaller + numEqual))
                 {
                     median = arr[i];
                 }
             }
             return median;
+        }
+
+        public int getCounter() {
+            return counter;
         }
     }
 }
