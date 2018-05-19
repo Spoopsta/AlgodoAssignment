@@ -52,7 +52,7 @@ namespace MedianAlgorithms
             }
             return median;
         }
-
+        
         public int getCounter() {
             return counter;
         }

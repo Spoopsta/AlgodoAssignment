@@ -23,7 +23,7 @@ namespace MedianAlgorithms
                 return arr[0];
             }
             else {
-                counter++;
+                counter += 2;
                 int middle = (int)Math.Floor((decimal)(arr.Length / 2));
                 return Select(arr, 0, middle, arr.Length - 1);
             }
@@ -37,11 +37,11 @@ namespace MedianAlgorithms
                 return arr[pos];
             }
             else if (pos > m) {
-                counter++;
+                counter += 2;
                 return Select(arr, l, m, pos - 1);
             }
             else if (pos < m) {
-                counter++;
+                counter += 3;
                 return Select(arr, pos + 1, m, h);
             }
             else {
@@ -78,6 +78,6 @@ namespace MedianAlgorithms
         public int getCounter() {
             return counter;
         }
-
+        
     }
 }
