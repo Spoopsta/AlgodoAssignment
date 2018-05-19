@@ -25,6 +25,10 @@ namespace testCases
         static int[] testArr15 = testArr1.Concat(testArr5).ToArray();
         static int[] testArr56 = testArr5.Concat(testArr6).ToArray();
 
+        static int[] testArr100 = new int[] { 7, 6, 5, 4, 3, 2, 1 };
+        static int[] testArr101 = new int[] { 400, 500, 100, 200, 600, 700, 300 };
+        static int[] testArr102 = new int[] { 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+
         static int[] testArr1256 = testArr12.Concat(testArr56).ToArray();
 
         SelectMedian SelMed = new SelectMedian();
@@ -43,6 +47,10 @@ namespace testCases
         [TestMethod] public void TestNormalSelMed14() { Assert.AreEqual(6, SelMed.getMedian(testArr14)); }
         [TestMethod] public void TestNormalSelMed15() { Assert.AreEqual(8, SelMed.getMedian(testArr15)); }
         [TestMethod] public void TestNormalSelMed56() { Assert.AreEqual(16, SelMed.getMedian(testArr56)); }
+
+        [TestMethod] public void TestNormalSelMed100() { Assert.AreEqual(4, SelMed.getMedian(testArr100)); }
+        [TestMethod] public void TestNormalSelMed101() { Assert.AreEqual(400, SelMed.getMedian(testArr101)); }
+        [TestMethod] public void TestNormalSelMed102() { Assert.AreEqual(1, SelMed.getMedian(testArr102)); }
 
         //Normal tests - Long
         [TestMethod] public void TestNormalSelMed1256() { Assert.AreEqual(6, SelMed.getMedian(testArr1256)); }
